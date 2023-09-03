@@ -2,6 +2,19 @@ html {
     overflow-x: hidden;
 }
 
+p{
+    color: #606060;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: normal;
+    font-style: normal;
+}
+
+.bold{
+    font-weight: 800;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +33,7 @@ section{
     scroll-snap-align: start;
 }
 
+/* FOR ONE */
 .one{
     align-items: end;
     background-color: black;
@@ -32,13 +46,8 @@ section{
 }
 
 .text-container{
-    width: 40%;
-    margin-left: 40%;
-    margin-bottom: 15%;
     display: flex;
     flex-direction: column;
-    position: static;
-    z-index: 1;
 }
 
 .heading{
@@ -56,10 +65,7 @@ section{
 }
 
 .paragraph-container{
-    gap: 20px;
-    width: 100%;
-    padding-top: 10%;
-    display: inherit;
+    display: flex;
     flex-direction: row;
 }
 
@@ -68,4 +74,53 @@ section{
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
     font-size: 12px;
+}
+
+/* FOR TWO */
+.two{
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me-tittle{
+    font-family: 'Inter', sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.biography{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 96%;
+}
+
+.interests{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h3{
+    color: #606060;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h4{
+    color: #4F4F4F;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
