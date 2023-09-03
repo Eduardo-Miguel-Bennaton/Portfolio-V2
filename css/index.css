@@ -124,3 +124,35 @@ h4{
     font-weight: 700;
     line-height: normal;
 }
+
+/* FOR THREE */
+
+.three{
+    align-items: center;
+}
+
+.education{
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+    align-items: center;
+}
+
+.hat{
+    width: 7%;
+}
+
+.years{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+h5{
+    color: #B3B3B3;
+    font-family: Inter;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
