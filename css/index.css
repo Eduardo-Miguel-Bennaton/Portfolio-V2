@@ -220,3 +220,10 @@ h6{
     width: 43%;
     gap: 40px;
 }
+
+/* FOR FIVE */
+
+.five{
+    height: 50vh;
+    justify-content: center;
+}
