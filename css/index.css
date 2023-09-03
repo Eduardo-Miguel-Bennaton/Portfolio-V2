@@ -227,3 +227,30 @@ h6{
     height: 50vh;
     justify-content: center;
 }
+
+
+/* Responsiveness  */
+
+@media only screen and (max-width: 1689px) {
+    .years{
+        gap: 5%;
+    }
+}
+
+@media only screen and (max-width: 1630px) {
+    .year2021{
+        font-size: 80px;
+    }
+    .year2022{
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 1510px) {
+    .year2021{
+        font-size: 70px;
+    }
+    .year2022{
+        font-size: 70px;
+    }
+}
