@@ -9,15 +9,23 @@ function toggleContent(element) {
         if (isHidden) {
             element.style.backgroundColor = '#FFF';
             element.style.boxShadow = '0px 0px 14px 0px rgba(0, 0, 0, 0.11)';
+            
             hiddenMessage.style.display = 'none';
             display.style.display = 'block';
-            body.style.display = 'block';
+            if (body){
+                body.style.display = 'block';
+            }
+            
         } else {
             element.style.backgroundColor = '#B3B3B3';
             element.style.boxShadow = '0px 0px 14px 0px rgba(0, 0, 0, 0.21)';
             hiddenMessage.style.display = 'block';
             display.style.display = 'none';
-            body.style.display = 'none';
+
+            if (body){
+                body.style.display = 'none';
+            }
+            
         }
         isHidden = !isHidden;
     });
