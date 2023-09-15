@@ -237,6 +237,7 @@ h6{
 .hiddenFont{
     display: none;
     color: white;
+    font-size: 15px;
 }
 
 /* Responsiveness  */
