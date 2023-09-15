@@ -1,29 +1,30 @@
-const PublicSpeaking = document.getElementById('PublicSpeakingCourse')
-const LeadershipCourse = document.getElementById('LeadershipCourse')
-const Internship = document.getElementById('Internship')
-const BachelorYears = document.getElementById('BachelorYears')
-const EtiquetteTraining = document.getElementById('EtiquetteTraining')
-const InternshipThiel = document.getElementById('Internship-Thiel')
-const University = document.getElementById('University')
-
-function toggleBackgroundColor(element){
+// Function to toggle content visibility
+function toggleContent(element) {
     let isHidden = false;
+    const hiddenMessage = element.querySelector('#Hidden');
+    const display = element.querySelector('#Display');
+    const body = element.querySelector('#Body');
 
-    element.addEventListener('click', function(){
+    element.addEventListener('click', function () {
         if (isHidden) {
             element.style.backgroundColor = '#FFF';
+            element.style.boxShadow = '0px 0px 14px 0px rgba(0, 0, 0, 0.11)';
+            hiddenMessage.style.display = 'none';
+            display.style.display = 'block';
+            body.style.display = 'block';
         } else {
             element.style.backgroundColor = '#B3B3B3';
+            element.style.boxShadow = '0px 0px 14px 0px rgba(0, 0, 0, 0.21)';
+            hiddenMessage.style.display = 'block';
+            display.style.display = 'none';
+            body.style.display = 'none';
         }
-        isHidden = !isHidden
+        isHidden = !isHidden;
     });
 }
 
-// WRITTING INDIVIDUAL BUTTON ANIMATIONS FOR SWITCHING 
-toggleBackgroundColor(PublicSpeaking)
-toggleBackgroundColor(LeadershipCourse)
-toggleBackgroundColor(Internship)
-toggleBackgroundColor(BachelorYears)
-toggleBackgroundColor(EtiquetteTraining)
-toggleBackgroundColor(InternshipThiel)
-toggleBackgroundColor(University)
+// Get and toggle content for each button
+const buttons = document.querySelectorAll('.box-container');
+buttons.forEach(button => {
+    toggleContent(button);
+});

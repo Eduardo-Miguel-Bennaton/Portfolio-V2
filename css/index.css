@@ -131,9 +131,6 @@ h4{
 }
 
 /* FOR THREE */
-.three{
-    align-items: center;
-}
 
 .education{
     display: flex;
@@ -170,7 +167,7 @@ h5{
     background-color: #FFF;
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.11);
     padding: 15px 20px;
-    transition: background-color 0.2s cubic-bezier(.19,.32,.58,.97);
+    transition: background-color 0.3s cubic-bezier(.19,.32,.58,.97), box-shadow 0.3s cubic-bezier(.19,.32,.58,.97);
     cursor: pointer;
 }
 
@@ -237,6 +234,10 @@ h6{
     justify-content: center;
 }
 
+.hiddenFont{
+    display: none;
+    color: white;
+}
 
 /* Responsiveness  */
 
