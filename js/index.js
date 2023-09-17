@@ -36,3 +36,14 @@ const buttons = document.querySelectorAll('.box-container');
 buttons.forEach(button => {
     toggleContent(button);
 });
+
+const instagram = document.getElementById('instagram')
+
+function openNewTab(url){
+    window.open(url,'_blank')
+}
+
+instagram.addEventListener('click', function(){
+    const urlToOpen = 'https://www.instagram.com/ebennatonh/';
+    openNewTab(urlToOpen)
+});

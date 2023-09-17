@@ -251,6 +251,11 @@ h6{
     font-size: 15px;
 }
 
+/* CURRENT WORK SECTION */
+.instagram:hover{
+    color: rgb(180, 48, 120)
+}
+
 /* Responsiveness  */
 
 @media only screen and (max-width: 1689px) {
