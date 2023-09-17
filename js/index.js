@@ -38,6 +38,7 @@ buttons.forEach(button => {
 });
 
 const instagram = document.getElementById('instagram')
+const linkedin = document.getElementById('linkedin')
 
 function openNewTab(url){
     window.open(url,'_blank')
@@ -45,5 +46,10 @@ function openNewTab(url){
 
 instagram.addEventListener('click', function(){
     const urlToOpen = 'https://www.instagram.com/ebennatonh/';
+    openNewTab(urlToOpen)
+});
+
+linkedin.addEventListener('click', function(){
+    const urlToOpen = 'https://www.linkedin.com/in/eduardo-miguel-bennaton-handal-945588270/';
     openNewTab(urlToOpen)
 });
