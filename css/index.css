@@ -9,6 +9,7 @@ html {
 }
 
 * {
+    user-select: none;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,36 +18,33 @@ html {
 }
 
 p, .small-text{
-    font-size: 18px;
     line-height: normal;
     font-style: normal;
-    user-select: none;
 }
 
 p{
+    font-size: 20px;
     font-weight: 500;
 }
 
 .small-text{
+    font-size: 18px;
     color: rgba(255, 255, 255, 0.815);
     font-weight: 400;
 }
 
 h1{
-    user-select: none;
     font-weight: 700;
     font-size: 70px;
     color: white;
 }
 
 h2{
-    user-select: none;
     font-weight: 700;
     font-size: 35px;
 }
 
 h3{
-    user-select: none;
     font-weight: 500;
     font-size: 25px;
     color: white;
@@ -77,7 +75,7 @@ section{
 
 /* FOR ONE */
 .one{
-    align-items: end;
+    align-items: center;
     background-color: black;
 }
 
@@ -109,8 +107,7 @@ section{
 
 /* FOR TWO */
 .two{
-    align-items: center;
-    justify-content: center;
+    padding: 0 150px;
 }
 
 .about-me{
@@ -138,18 +135,7 @@ section{
     gap: 30px;
 }
 
-h3{
-    user-select: none;
-    color: #606060;
-    font-family: Inter;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
 h4{
-    user-select: none;
     color: #4F4F4F;
     font-family: Inter;
     font-size: 27px;
@@ -159,7 +145,6 @@ h4{
 }
 
 /* FOR THREE */
-
 .education{
     display: flex;
     flex-direction: row;
@@ -178,7 +163,6 @@ h4{
 }
 
 h5{
-    user-select: none;
     color: #B3B3B3;
     font-family: Inter;
     font-size: 90px;
@@ -211,14 +195,7 @@ h5{
 }
 
 /* FOR FOUR */
-
-.four{
-    align-items: center;
-    justify-content: center;
-}
-
 h6{
-    user-select: none;
     font-size: 200px;
     font-family: 'Noto Serif Display', serif;
     font-style: normal;
@@ -237,11 +214,6 @@ h6{
 .author{
     font-size: 12px;
     font-family: 'Noto Serif', serif;
-}
-
-.programming{
-    display: flex;
-    flex-direction: column;
 }
 
 .label{
@@ -270,7 +242,6 @@ h6{
 
 .five{
     height: 50vh;
-    justify-content: center;
 }
 
 .hiddenFont{
