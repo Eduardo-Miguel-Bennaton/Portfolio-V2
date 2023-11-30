@@ -145,7 +145,12 @@ h5{
     line-height: normal;
 }
 
+.full-width{
+    width: 100%;
+}
+
 .box-container{
+    width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
