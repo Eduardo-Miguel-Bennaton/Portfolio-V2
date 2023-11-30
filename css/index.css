@@ -132,21 +132,8 @@ h4{
 }
 
 /* FOR THREE */
-.education{
-    display: flex;
-    flex-direction: row;
-    gap: 27px;
-    align-items: center;
-}
-
 .hat{
     width: 7%;
-}
-
-.years{
-    display: flex;
-    flex-direction: row;
-    gap: 10%;
 }
 
 h5{
@@ -159,6 +146,7 @@ h5{
 }
 
 .box-container{
+    text-align: center;
     display: flex;
     flex-direction: column;
     gap: 23px;
@@ -234,7 +222,12 @@ h6{
     transition: color 0.3s cubic-bezier(.19,.32,.58,.97), background-image 0.3s cubic-bezier(.19,.32,.58,.97);
 }
 
-/* CURRENT WORK SECTION */
+.display-board{
+    background-color: red;
+    height: 500px;  /* CAHNGE AFTERWARDS FOR RESPONSIVENESS */
+}
+
+
 .instagram:hover{
     background-image: linear-gradient(90deg, #00dbde, #fc00ff);
     -webkit-background-clip: text;
