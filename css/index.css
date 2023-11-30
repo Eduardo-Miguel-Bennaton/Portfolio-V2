@@ -68,6 +68,7 @@ h3{
 
 
 section{
+    padding: 0 150px;
     height: 100vh;
     display: flex;
     scroll-snap-align: start;
@@ -75,6 +76,7 @@ section{
 
 /* FOR ONE */
 .one{
+    padding: 0;
     align-items: center;
     background-color: black;
 }
@@ -106,10 +108,6 @@ section{
 }
 
 /* FOR TWO */
-.two{
-    padding: 0 150px;
-}
-
 .about-me{
     display: flex;
     flex-direction: column;
