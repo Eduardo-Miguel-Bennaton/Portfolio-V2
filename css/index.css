@@ -108,11 +108,6 @@ section{
 }
 
 /* FOR TWO */
-.about-me{
-    display: flex;
-    flex-direction: column;
-}
-
 .section-heading{
     font-size: 90px;
     font-weight: 600;
