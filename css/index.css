@@ -116,7 +116,7 @@ section{
 .section-heading{
     font-size: 90px;
     font-weight: 600;
-    margin-bottom: 5%;
+    margin-bottom: 50px;
     color: var(--color-3);
 }
 
@@ -124,7 +124,6 @@ section{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    width: 96%;
 }
 
 .interests{
