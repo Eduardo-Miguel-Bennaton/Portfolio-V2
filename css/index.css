@@ -27,6 +27,10 @@ p{
     font-weight: 500;
 }
 
+.highlight{
+    color: var(--color-1);
+}
+
 .small-text{
     font-size: 18px;
     color: rgba(255, 255, 255, 0.815);
@@ -50,10 +54,6 @@ h3{
     color: white;
 }
 
-.bold{
-    font-weight: 800;
-}
-
 /* .container{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
@@ -66,16 +66,15 @@ h3{
     row-gap: 55px;
 }
 
-
 section{
     padding: 0 150px;
-    height: 100vh;
     display: flex;
     scroll-snap-align: start;
 }
 
 /* FOR ONE */
 .one{
+    height: 100vh;
     padding: 0;
     align-items: center;
     background-color: black;
@@ -111,17 +110,12 @@ section{
 .section-heading{
     font-size: 90px;
     font-weight: 600;
-    margin-bottom: 110px;
+    margin-bottom: 80px;
     color: var(--color-3);
 }
 
-.biography{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.interests{
+.sub-container{
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 30px;
