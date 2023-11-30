@@ -83,9 +83,16 @@ section{
     bottom: 9vh;
 }
 
-.text-container{
+.text-container-column, .text-container-row{
     display: flex;
+}
+
+.text-container-column{
     flex-direction: column;
+}
+
+.text-container-row{
+    flex-direction: row;
 }
 
 .introductory-container{
@@ -94,11 +101,6 @@ section{
     margin-bottom: 15%;
     position: static; 
     z-index: 1;
-}
-
-.paragraph-container{
-    display: flex;
-    flex-direction: row;
 }
 
 /* FOR TWO */

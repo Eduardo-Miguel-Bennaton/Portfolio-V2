@@ -15,28 +15,30 @@
     <div class="container" style="user-select: none;">
         <section class="one">
             <img src="./assets/Fancy-me 2.png" alt="" class="my-image" draggable="false">
-            <div class="text-container introductory-container"> 
+            <div class="text-container-column introductory-container"> 
                 <div class="heading-container">
                     <h1>Eduardo Bennaton</h1>
                     <h2>Software Engineer</h2>
                 </div>
-                <div class="paragraph-container" style="gap: 20px; width: 100%; padding-top: 10%;">
-                    <div style="display: flex; flex-direction: column; width: 70%;">
-                        <div style="display: flex; flex-direction: column; gap: 20px;">
+                <div class="text-container-row" style="gap: 20px; width: 100%; padding-top: 10%;">
+                    <div style="display: flex; flex-direction: row; column-gap: 15px">
+                        <div style="display: flex; flex-direction: column; gap: 20px; width: 50%">
                             <p class="small-text">I'm thrilled to have caught your attention. I trust that you have successfully found what you were seeking. And perhaps even more.</p>
                             <p class="small-text">May your journey on this page be both enjoyable and fulfilling.</p>
                         </div>
+                        <div style="width: 50%;">
+                            <p class="small-text">Inside this page, you will get to find more about my passions, experiences and personality. </p>
+                        </div>
                     </div> 
-                    <p class="small-text">Inside this page, you will get to find more about my passions, experiences and personality. </p>
                 </div>
             </div>
         </section>
         <section class="two" style="height: 90vh;">
-            <div class="text-container" style="width: 60%;">
+            <div class="text-container-column" style="width: 60%;">
                 <div class="about-me">
                     <p class="about-me-tittle">About me</p>
                     <div style="display: flex; flex-direction: column; gap: 70px;">
-                        <div class="paragraph-container" style="gap: 12%;">
+                        <div class="text-container-row" style="gap: 12%;">
                             <div class="biography">
                                 <h3 class="biography-tittle">Biography</h3>
                                 <p>Born on July 16th, 2004, I was raised, and educated in Tegucigalpa, Honduras. I grew up in a family of 3 (including me), 
@@ -52,9 +54,9 @@
                                 <p>What can I say, a little goes a long way!</p>
                             </div>
                         </div>
-                        <div class="paragraph-container" style="flex-direction: column; gap: 40px;">
+                        <div class="text-container-row" style="flex-direction: column; gap: 40px;">
                             <h4 style="width: 50%;">My software engineering journey to excellence</h4>
-                            <div class="text-container" style="width: 85%; gap: 30px;">
+                            <div class="text-container-column" style="width: 85%; gap: 30px;">
                                 <p>Ironically enough, I have been very passionate since youth for coding. It allowed me to expand my view of what I was truly capable of doing with the little to no-knowledge 
                                 I had. It has not been an easy road, but big things take time!</p>
                                 <p class="bold">Nevertheless, it is rewarding.</p>
@@ -65,7 +67,7 @@
             </div>
         </section>
         <section class="three" style="height: 70vh;">
-            <div class="text-container" style="gap: 40px; margin-left: 20%; width: 66%;">
+            <div class="text-container-column" style="gap: 40px; margin-left: 20%; width: 66%;">
                 <div class="education">
                     <h4>Education</h4>
                     <img class="hat" src="./assets/Hat.png" alt="" draggable="false">
@@ -73,7 +75,7 @@
                 <div class="years">
                     <div class="year-1" style="width: 47%;">
                         <h5 class="year2021">2010-2021</h5>
-                        <div class="paragraph-container" style="gap: 7%;">
+                        <div class="text-container-row" style="gap: 7%;">
                             <div style="display: flex; flex-direction: column; gap: 18px;">
                                 <div class="box-container" id="PublicSpeakingCourse">
                                     <p id="Display">2019</p>
@@ -107,7 +109,7 @@
                     </div>
                     <div class="year-2">
                         <h5 class="year2022">2022-2025</h5>
-                        <div class="paragraph-container" style="gap: 7%; width: 80%;">
+                        <div class="text-container-row" style="gap: 7%; width: 80%;">
                             <div style="display: flex; flex-direction: column; gap: 18px;">
                                 <div class="box-container" id="Internship-Thiel">
                                     <p id="Display">Internship</p>
@@ -130,13 +132,8 @@
             </div>
         </section>
         <section class="four">
-            <div class="text-container" style="margin-left: 7%; gap: 70px; width: 66%; height: 100%;">
-                <div class="experience">
-                    <!-- <h6>Experience</h6> -->
-                    <p class="quote">"Knowledge is power"</p>
-                    <p class="author">- Francis Bacon</p>
-                </div>
-                <div class="paragraph-container" style="gap: 10%;">
+            <div class="text-container-column" style="margin-left: 7%; gap: 70px; width: 66%; height: 100%;">
+                <div class="text-container-row" style="gap: 10%;">
                     <div class="programming" style="width: 31%; gap: 10%;">
                         <p>Through my progression, I've part-taken in multiple inter-cultural events since my childhood. With it, 
                             I've been able to adapt many skills and cultures along the way.</p>
@@ -161,13 +158,13 @@
                         </div>
                         <div class="extra-container" id="languages">
                             <p class="label">Languages</p>
-                            <div class="paragraph-container" style="gap: 5%;">
+                            <div class="text-container-row" style="gap: 5%;">
                                 <div style="width: 22%;">
                                     <div class="box-container-no-click" style="align-items: center; justify-content: center; cursor: default;">
                                         <p>Spanish (Mother language)</p>
                                     </div>
                                 </div>
-                                <div class="text-container" style="gap: 15px;">
+                                <div class="text-container-column" style="gap: 15px;">
                                     <div class="box-container">
                                         <p id="Display">English (Advanced - TOEFL)</p>
                                         <p class="hiddenFont" id="Hidden">Reference: LINK HERE</p>
@@ -184,13 +181,13 @@
             </div>
         </section>
         <section class="five">
-            <div class="text-container" style="gap: 90px; width: 50%;">
+            <div class="text-container-column" style="gap: 90px; width: 50%;">
                 <div>
                     <p style="color: black;">getting in</p>
                     <p class="label">Contact</p>
                 </div>
-                <div class="paragraph-container" style="gap: 12%;">
-                    <div class="text-container" style="width: 40%; gap: 20px;">
+                <div class="text-container-row" style="gap: 12%;">
+                    <div class="text-container-column" style="width: 40%; gap: 20px;">
                         <h4 style="color: black;">Information</h4>
                         <div>
                             <p>eduard.bennaton.handal@gmail.com</p>
@@ -199,19 +196,19 @@
 
                         <div>
                             <p>Projects can be visible at</p>
-                            <div class="paragraph-container" style="gap: 2%; align-items: center;">
+                            <div class="text-container-row" style="gap: 2%; align-items: center;">
                                 <img src="./assets/instagram.png" alt="" style="width: 6%;" draggable="false">
                                 <p class="instagram" id="instagram" style="cursor: pointer;">ebennatonh</p>
                             </div>
                         </div>
-                        <div class="paragraph-container" style="gap: 2%; align-items: center;">
+                        <div class="text-container-row" style="gap: 2%; align-items: center;">
                             <img src="./assets/linkedin.png" alt="" style="width: 6%;" draggable="false">
                             <p class="linkedin" id="linkedin" style="cursor: pointer;">Eduardo Miguel Bennaton Handal</p>
                         </div>
                         <div></div>
 
                     </div>
-                    <div class="text-container" style="gap: 10%;">
+                    <div class="text-container-column" style="gap: 10%;">
                         <p style="font-weight: 700;">Special regards</p>
                         <p>I am glad that you are interested in contacting me, as I cannot contain my excitement for potential future connections.</p>
                         <p>If any questions arise regarding any of the content of the portfolio, I would be more than interested to discuss them through my contacting sources!</p>
