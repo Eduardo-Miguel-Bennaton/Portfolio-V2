@@ -2,19 +2,21 @@ html {
     overflow-x: hidden;
 }
 
+:root{
+    --color-1: #EA5838;
+    --color-2: #606060;
+    --color-3: #000000;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--color-2);
+    font-family: 'Inter', sans-serif;
 }
-
-:root{
-    --highlight-color-1: #EA5838;
-}
-
 
 p, .small-text{
-    font-family: 'Inter', sans-serif;
     font-size: 18px;
     line-height: normal;
     font-style: normal;
@@ -22,7 +24,6 @@ p, .small-text{
 }
 
 p{
-    color: #606060;
     font-weight: 500;
 }
 
@@ -33,7 +34,6 @@ p{
 
 h1{
     user-select: none;
-    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 70px;
     color: white;
@@ -41,15 +41,12 @@ h1{
 
 h2{
     user-select: none;
-    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 35px;
-    color: var(--highlight-color-1);
 }
 
 h3{
     user-select: none;
-    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 25px;
     color: white;
@@ -114,11 +111,11 @@ section{
     flex-direction: column;
 }
 
-.about-me-tittle{
-    font-family: 'Inter', sans-serif;
+.section-heading{
     font-size: 90px;
     font-weight: 600;
     margin-bottom: 5%;
+    color: var(--color-3);
 }
 
 .biography{
@@ -299,7 +296,7 @@ h6{
 
 /* Responsiveness  */
 
-@media only screen and (max-width: 1689px) {
+/* @media only screen and (max-width: 1689px) {
     .years{
         gap: 5%;
     }
@@ -321,4 +318,4 @@ h6{
     .year2022{
         font-size: 70px;
     }
-}
+} */
