@@ -91,6 +91,10 @@ section{
     display: flex;
 }
 
+.gapped{
+    gap: 20px;
+}
+
 .text-container-column{
     flex-direction: column;
 }
@@ -146,10 +150,12 @@ h5{
 }
 
 .full-width{
+    gap: 32px;
     width: 100%;
 }
 
 .box-container{
+    justify-content: center;
     width: 100%;
     text-align: center;
     display: flex;
