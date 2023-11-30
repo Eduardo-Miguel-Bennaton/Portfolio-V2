@@ -7,6 +7,7 @@ html {
     --color-2: #606060;
     --color-3: #000000;
     --color-4: #FFFFFF;
+    --color-5: #F3F3F3;
 }
 
 * {
@@ -162,8 +163,7 @@ h5{
     flex-direction: column;
     gap: 23px;
     border-radius: 12px;
-    background-color: var(--color-4);
-    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.11);
+    background-color: var(--color-5);
     padding: 15px 20px;
     transition: background-color 0.3s cubic-bezier(.19,.32,.58,.97), box-shadow 0.3s cubic-bezier(.19,.32,.58,.97);
     cursor: pointer;
