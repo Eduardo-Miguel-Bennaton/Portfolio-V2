@@ -2,24 +2,61 @@ html {
     overflow-x: hidden;
 }
 
-p{
-    user-select: none;
-    color: #606060;
-    font-family: 'Inter', sans-serif;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: normal;
-    font-style: normal;
-}
-
-.bold{
-    font-weight: 800;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root{
+    --highlight-color-1: #EA5838;
+}
+
+
+p, .small-text{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: normal;
+    font-style: normal;
+    user-select: none;
+}
+
+p{
+    color: #606060;
+    font-weight: 500;
+}
+
+.small-text{
+    color: rgba(255, 255, 255, 0.815);
+    font-weight: 400;
+}
+
+h1{
+    user-select: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+}
+
+h2{
+    user-select: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: var(--highlight-color-1);
+}
+
+h3{
+    user-select: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+}
+
+.bold{
+    font-weight: 800;
 }
 
 /* .container{
@@ -42,8 +79,8 @@ section{
 
 .my-image{
     position: absolute;
-    left: 7%;
-    bottom: 6%;
+    left: 10px;
+    bottom: 9vh;
 }
 
 .text-container{
@@ -51,32 +88,17 @@ section{
     flex-direction: column;
 }
 
-.heading{
-    user-select: none;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 70px;
-    color: white;
-}
-
-.sub-heading{
-    user-select: none;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 25px;
-    color: white;
+.introductory-container{
+    width: 40%; 
+    margin-left: 40%;
+    margin-bottom: 15%;
+    position: static; 
+    z-index: 1;
 }
 
 .paragraph-container{
     display: flex;
     flex-direction: row;
-}
-
-.small-text{
-    color: rgba(255, 255, 255, 0.815);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 100;
-    font-size: 12px;
 }
 
 /* FOR TWO */
