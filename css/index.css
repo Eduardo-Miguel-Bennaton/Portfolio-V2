@@ -155,14 +155,19 @@ h5{
     width: 100%;
 }
 
-.box-container{
-    justify-content: center;
-    width: 100%;
+.box-container, .display-board{
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.box-container{
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 23px;
-    border-radius: 12px;
     background-color: var(--color-5);
     padding: 15px 20px;
     transition: background-color 0.3s cubic-bezier(.19,.32,.58,.97), box-shadow 0.3s cubic-bezier(.19,.32,.58,.97);
@@ -176,6 +181,16 @@ h5{
     background-color: var(--color-4);
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.11);
     padding: 15px 20px;
+}
+
+.display-board{
+    border: solid #E9E9E9 5px;
+    height: 500px;  /* CHANGE AFTERWARDS FOR RESPONSIVENESS */
+}
+
+.display-board p{
+    font-weight: bold;
+    font-size: 30px;
 }
 
 /* FOR FOUR */
@@ -232,12 +247,6 @@ h6{
     background-image: linear-gradient(90deg, #ffffff, #ffffff);
     transition: color 0.3s cubic-bezier(.19,.32,.58,.97), background-image 0.3s cubic-bezier(.19,.32,.58,.97);
 }
-
-.display-board{
-    background-color: red;
-    height: 500px;  /* CAHNGE AFTERWARDS FOR RESPONSIVENESS */
-}
-
 
 .instagram:hover{
     background-image: linear-gradient(90deg, #00dbde, #fc00ff);
