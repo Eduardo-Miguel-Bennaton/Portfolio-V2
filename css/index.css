@@ -56,6 +56,38 @@ h3{
     color: white;
 }
 
+h4{
+    color: #4F4F4F;
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h5{
+    color: #B3B3B3;
+    font-family: Inter;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h6{
+    font-size: 200px;
+    font-family: 'Noto Serif Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sub-heading{
+    font-weight: 700;
+    font-size: 25px;
+    color: #606060;
+}
+
 /* .container{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
@@ -134,27 +166,9 @@ section{
     gap: 30px;
 }
 
-h4{
-    color: #4F4F4F;
-    font-family: Inter;
-    font-size: 27px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
 /* FOR THREE */
 .hat{
     width: 7%;
-}
-
-h5{
-    color: #B3B3B3;
-    font-family: Inter;
-    font-size: 90px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 
 .full-width{
@@ -207,14 +221,6 @@ h5{
 }
 
 /* FOR FOUR */
-h6{
-    font-size: 200px;
-    font-family: 'Noto Serif Display', serif;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
 .quote{
     color: black;
     font-family: 'Noto Serif', serif;
