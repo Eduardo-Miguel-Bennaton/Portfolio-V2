@@ -101,6 +101,7 @@ h6{
 }
 
 section{
+    margin: 100px 0;
     padding: 0 150px;
     display: flex;
     scroll-snap-align: start;
@@ -251,11 +252,6 @@ section{
 }
 
 /* FOR FIVE */
-
-.five{
-    margin-bottom: 100px;
-}
-
 .hiddenFont{
     display: none;
     color: white;
