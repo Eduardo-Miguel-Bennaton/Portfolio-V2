@@ -327,4 +327,118 @@ section{
     .language{
         text-align: center;
     }
+    .section-heading{
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .expertise_structure{
+        flex-direction: column;
+        row-gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 733px) {
+    .section-heading{
+        font-size: 75px;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    .section-heading{
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    .education-container{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 655px) {
+    p{
+        font-size: 15px;
+    }
+    section{
+        padding: 0 120px;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    section{
+        padding: 0 90px;
+    }
+}
+
+@media only screen and (max-width: 515px) {
+    .section-heading{
+        font-size: 54px;
+    }
+    section{
+        padding: 0 70px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .section-heading{
+        font-size: 48px;
+    }
+    section{
+        padding: 0 65px;
+    }
+    p{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .section-heading{
+        font-size: 40px;
+    }
+    section{
+        padding: 0 60px;
+    }
+    /* p{
+        font-size: 12px;
+    } */
+}
+
+@media only screen and (max-width: 337px) {
+    .section-heading{
+        font-size: 35px;
+    }
+    .sub-heading{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    section{
+        padding: 0 45px;
+    }
+    p{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .section-heading{
+        font-size: 30px;
+    }
+    .sub-heading{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    section{
+        padding: 0 45px;
+    }
+    p{
+        font-size: 12px;
+    }
 }
