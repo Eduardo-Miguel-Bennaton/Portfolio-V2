@@ -316,10 +316,15 @@ section{
 
 @media only screen and (max-width: 790px) {
     .software_language_structure{
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
     }
     .softexpertise{
         justify-content: center;
         align-items: center;
+    }
+    .language{
+        text-align: center;
     }
 }
