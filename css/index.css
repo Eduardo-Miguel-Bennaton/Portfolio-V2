@@ -313,3 +313,13 @@ section{
         flex-direction: column;
     }
 }
+
+@media only screen and (max-width: 790px) {
+    .software_language_structure{
+        flex-direction: column;
+    }
+    .softexpertise{
+        justify-content: center;
+        align-items: center;
+    }
+}
