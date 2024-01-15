@@ -309,4 +309,7 @@ section{
     .knowledge_solidarity{
         flex-direction: column;
     }
+    .about_me_structure{
+        flex-direction: column;
+    }
 }
