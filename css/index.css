@@ -330,6 +330,9 @@ section{
     .section-heading{
         font-size: 80px;
     }
+    .sub-heading{
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width: 765px) {
@@ -338,6 +341,9 @@ section{
         row-gap: 30px;
         justify-content: center;
         align-items: center;
+    }
+    .section-heading{
+        text-align: center;
     }
 }
 
@@ -366,6 +372,12 @@ section{
     section{
         padding: 0 120px;
     }
+    h2{
+        font-size: 21px;
+    }
+    .sub-heading{
+        font-size: 16px;
+    }
 }
 
 @media only screen and (max-width: 565px) {
@@ -381,6 +393,12 @@ section{
     section{
         padding: 0 70px;
     }
+    h2{
+        font-size: 19px;
+    }
+    .sub-heading{
+        font-size: 15.5px;
+    }
 }
 
 @media only screen and (max-width: 440px) {
@@ -392,6 +410,9 @@ section{
     }
     p{
         font-size: 12px;
+    }
+    .sub-heading{
+        font-size: 12.8px;
     }
 }
 
