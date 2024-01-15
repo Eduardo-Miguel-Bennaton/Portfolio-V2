@@ -281,30 +281,6 @@ section{
 
 /* Responsiveness  */
 
-/* @media only screen and (max-width: 1689px) {
-    .years{
-        gap: 5%;
-    }
-}
-
-@media only screen and (max-width: 1630px) {
-    .year2021{
-        font-size: 80px;
-    }
-    .year2022{
-        font-size: 80px;
-    }
-}
-
-@media only screen and (max-width: 1510px) {
-    .year2021{
-        font-size: 70px;
-    }
-    .year2022{
-        font-size: 70px;
-    }
-} */
-
 @media only screen and (max-width: 1250px) {
     .knowledge_solidarity{
         flex-direction: column;
@@ -357,6 +333,9 @@ section{
 }
 
 @media only screen and (max-width: 710px) {
+    section{
+        margin: 50px 0px;
+    }
     .section-heading{
         font-size: 60px;
         margin: 0 0 50px;
@@ -378,6 +357,7 @@ section{
     }
     section{
         padding: 0 120px;
+        margin: 48px 0;
     }
     h2{
         font-size: 21px;
@@ -415,6 +395,7 @@ section{
     }
     section{
         padding: 0 65px;
+        margin: 39px 0px;
     }
     p{
         font-size: 12px;
@@ -448,6 +429,7 @@ section{
     }
     section{
         padding: 0 45px;
+        margin: 29px 0px;
     }
     p{
         font-size: 12px;
