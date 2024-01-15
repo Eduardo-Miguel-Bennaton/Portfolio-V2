@@ -402,9 +402,6 @@ section{
     section{
         padding: 0 60px;
     }
-    /* p{
-        font-size: 12px;
-    } */
 }
 
 @media only screen and (max-width: 337px) {
@@ -428,17 +425,5 @@ section{
 @media only screen and (max-width: 280px) {
     .section-heading{
         font-size: 30px;
-    }
-    .sub-heading{
-        font-size: 10px;
-    }
-    h2{
-        font-size: 15px;
-    }
-    section{
-        padding: 0 45px;
-    }
-    p{
-        font-size: 12px;
     }
 }
