@@ -351,11 +351,18 @@ section{
     .section-heading{
         font-size: 75px;
     }
+    h2{
+        font-size: 28px;
+    }
 }
 
 @media only screen and (max-width: 710px) {
     .section-heading{
         font-size: 60px;
+        margin: 0 0 50px;
+    }
+    h2{
+        font-size: 23px;
     }
 }
 
@@ -404,6 +411,7 @@ section{
 @media only screen and (max-width: 440px) {
     .section-heading{
         font-size: 48px;
+        margin: 0 0 40px;
     }
     section{
         padding: 0 65px;
@@ -413,6 +421,9 @@ section{
     }
     .sub-heading{
         font-size: 12.8px;
+    }
+    h2{
+        font-size: 16.3px;
     }
 }
 
