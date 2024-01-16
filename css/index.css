@@ -212,6 +212,7 @@ section{
 }
 
 .display-board{
+    padding: 0 20px;
     border: solid #E9E9E9 5px;
     height: 500px;  /* CHANGE AFTERWARDS FOR RESPONSIVENESS */
 }
