@@ -212,9 +212,8 @@ section{
 }
 
 .display-board{
-    padding: 0 50px;
+    padding: 50px 50px;
     border: solid #E9E9E9 5px;
-    height: 500px;  /* CHANGE AFTERWARDS FOR RESPONSIVENESS */
 }
 
 .display-board p{
@@ -459,7 +458,7 @@ section{
         font-size: 14.5px;
     }
     .display-board{
-        padding: 0 30px;
+        padding: 30px 30px;
     }
 }
 
