@@ -291,6 +291,18 @@ section{
     }
 }
 
+@media only screen and (max-width: 995px) {
+    .display-board p{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .display-board p{
+        font-size: 23px;
+    }
+}
+
 @media only screen and (max-width: 790px) {
     .software_language_structure{
         justify-content: center;
@@ -331,6 +343,9 @@ section{
     h2{
         font-size: 28px;
     }
+    .display-board p{
+        font-size: 21px;
+    }
 }
 
 @media only screen and (max-width: 710px) {
@@ -346,11 +361,11 @@ section{
     }
 }
 
-/* @media only screen and (max-width: 667px) {
-    .education-container{
-        display: none;
+@media only screen and (max-width: 684px) {
+    .display-board p{
+        font-size: 20px;
     }
-} */
+}
 
 @media only screen and (max-width: 655px) {
     p{
@@ -368,9 +383,18 @@ section{
     }
 }
 
+@media only screen and (max-width: 594px) {
+    .display-board p{
+        font-size: 17px;
+    }
+}
+
 @media only screen and (max-width: 565px) {
     section{
         padding: 0 90px;
+    }
+    .display-board p{
+        font-size: 19px;
     }
 }
 
@@ -386,6 +410,12 @@ section{
     }
     .sub-heading{
         font-size: 15.5px;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .display-board p{
+        font-size: 17px;
     }
 }
 
@@ -412,12 +442,24 @@ section{
     }
 }
 
+@media only screen and (max-width: 421px) {
+    .display-board p{
+        font-size: 15px;
+    }
+}
+
 @media only screen and (max-width: 395px) {
     .section-heading{
         font-size: 40px;
     }
     section{
         padding: 0 60px;
+    }
+    .display-board p{
+        font-size: 14.5px;
+    }
+    .display-board{
+        padding: 0 30px;
     }
 }
 
