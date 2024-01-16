@@ -37,6 +37,7 @@ buttons.forEach(button => {
     toggleContent(button);
 });
 
+// URL new-tab definition and icon generator
 const instagram = document.getElementById('instagram')
 const linkedin = document.getElementById('linkedin')
 
