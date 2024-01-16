@@ -345,11 +345,11 @@ section{
     }
 }
 
-@media only screen and (max-width: 667px) {
+/* @media only screen and (max-width: 667px) {
     .education-container{
         display: none;
     }
-}
+} */
 
 @media only screen and (max-width: 655px) {
     p{
@@ -414,6 +414,18 @@ section{
     }
     section{
         padding: 0 60px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    /* .education-container{
+        display: none;
+    } */
+    .full-width{
+        gap: 15px;
+    }
+    .box-container{
+        padding: 15px 15px;
     }
 }
 
