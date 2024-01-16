@@ -406,6 +406,9 @@ section{
     h2{
         font-size: 16.3px;
     }
+    .full-width{
+        gap: 17px;
+    }
 }
 
 @media only screen and (max-width: 395px) {
@@ -418,13 +421,10 @@ section{
 }
 
 @media only screen and (max-width: 380px) {
-    /* .education-container{
-        display: none;
-    } */
-    .full-width{
+    .full-width {
         gap: 15px;
     }
-    .box-container{
+    .box-container {
         padding: 15px 15px;
     }
 }
