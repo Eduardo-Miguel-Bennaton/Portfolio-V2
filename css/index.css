@@ -109,16 +109,16 @@ section{
 
 /* FOR ONE */
 .one{
-    height: 100vh;
-    padding: 0;
+    padding: 150px;
     align-items: center;
     background-color: black;
 }
 
 .my-image{
+    left: 120px;
     position: absolute;
-    left: 10px;
-    bottom: 9vh;
+    top: 1px;
+    height: 77%;
 }
 
 .text-container-column, .text-container-row{
@@ -145,10 +145,11 @@ section{
 }
 
 .introductory-container{
-    width: 40%; 
-    margin-left: 40%;
-    margin-bottom: 15%;
-    position: static; 
+    background-color: rgba(27, 27, 27, 0.454);
+    width: 700px;
+    display: flex;
+    padding: 25px;
+    border-radius: 20px;
     z-index: 1;
 }
 
@@ -296,6 +297,15 @@ section{
     }
 }
 
+@media only screen and (max-width: 981px) {
+    .display-board p{
+        font-size: 25px;
+    }
+    h1{
+        font-size: 49px;
+    }
+}
+
 @media only screen and (max-width: 800px) {
     .display-board p{
         font-size: 23px;
@@ -321,6 +331,9 @@ section{
     .sub-heading{
         font-size: 20px;
     }
+    h1{
+        font-size: 40px;
+    }
 }
 
 @media only screen and (max-width: 765px) {
@@ -332,6 +345,16 @@ section{
     }
     .section-heading{
         text-align: center;
+    }
+    .small-text{
+        font-size: 12px;
+    }
+    /* .introductory-container{
+        width: 500px;
+    } */
+    .my-image{
+        height: 640px;
+        left: 90px;
     }
 }
 
@@ -358,6 +381,14 @@ section{
     h2{
         font-size: 23px;
     }
+    .my-image{
+        height: 550px;
+        top: 40px;
+        left: 50px;
+    }
+    h1{
+        font-size: 30px;
+    }
 }
 
 @media only screen and (max-width: 684px) {
@@ -382,6 +413,9 @@ section{
     }
 }
 
+@media only screen and (max-width: 618px) {
+}
+
 @media only screen and (max-width: 594px) {
     .display-board p{
         font-size: 17px;
@@ -394,6 +428,16 @@ section{
     }
     .display-board p{
         font-size: 19px;
+    }
+    .introductory-container{
+        width: 100%;
+        background-color: transparent;
+    }
+    .my-image{
+        display: none;
+    } 
+    .one{
+        padding: 30px;
     }
 }
 
@@ -416,6 +460,10 @@ section{
     .display-board p{
         font-size: 17px;
     }
+    .my-image{
+        width: 390px;
+        /* bottom: 26vh; */
+    } 
 }
 
 @media only screen and (max-width: 440px) {
@@ -445,6 +493,9 @@ section{
     .display-board p{
         font-size: 15px;
     }
+    .my-image{
+        width: 340px;
+    } 
 }
 
 @media only screen and (max-width: 395px) {
@@ -471,6 +522,13 @@ section{
     }
 }
 
+@media only screen and (max-width: 355px) {
+    .my-image{
+        width: 300px;
+        /* bottom: 26vh; */
+    } 
+}
+
 @media only screen and (max-width: 337px) {
     .section-heading{
         font-size: 35px;
@@ -488,6 +546,15 @@ section{
     p{
         font-size: 12px;
     }
+    h1{
+        font-size: 35px;
+    }
+    .primary-h2{
+        font-size: 17px;
+    }
+    .my-image{
+        display: none;
+    } 
 }
 
 @media only screen and (max-width: 280px) {
