@@ -8,4 +8,3 @@ Cheers👋
 <h2>How to use the portfolio?</h2>
 
 1. Clone the repository
-[Link text](https://www.example.com)
