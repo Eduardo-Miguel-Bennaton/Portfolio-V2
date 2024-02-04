@@ -14,3 +14,4 @@ Cheers👋
 
 <br>
 <h2>Visuals</h2>
+<img width="848" alt="Repository Image" src="https://github.com/Eduardo-Miguel-Bennaton/Portfolio-V2/assets/122058309/15d5ab3c-8c90-4971-b56b-28af23fe8f81">
