@@ -11,3 +11,6 @@ Cheers👋
 1. Clone the repository
 2. Open the repository and run it with live server
 3. Let the code run!
+
+<br>
+<h2>Visuals</h2>
