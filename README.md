@@ -9,6 +9,9 @@ Cheers👋
 <h2>How to use the portfolio?</h2>
 
 1. Clone the repository
+
+["https://github.com/eduardo-miguel-bennaton/portfolio.git"](https://github.com/Eduardo-Miguel-Bennaton/Portfolio-V2.git)
+
 2. Open the repository and run it with live server
 3. Let the code run!
 
