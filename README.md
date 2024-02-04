@@ -11,7 +11,7 @@ Cheers👋
 1. Clone the repository
 
 ```markdown
-[![Copy to clipboard](https://clipboardjs.com/assets/images/clippy.svg)](https://github.com/Eduardo-Miguel-Bennaton/Portfolio-V2.git)
+https://clipboardjs.com/assets/images/clippy.svg)](https://github.com/Eduardo-Miguel-Bennaton/Portfolio-V2.git
 ```
 
 2. Open the repository and run it with live server
