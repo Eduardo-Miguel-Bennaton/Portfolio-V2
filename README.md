@@ -4,9 +4,10 @@ Excited you're checking out my portfolio source code! Dive into its unique archi
 
 Cheers👋
 
-
 <br>
 
 <h2>How to use the portfolio?</h2>
 
 1. Clone the repository
+2. Open the repository and run it with live server
+3. Let the code run!
